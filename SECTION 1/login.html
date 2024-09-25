@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+
+<style>
+          *
+          {
+            font-family: Roboto;
+        
+        
+          }
+
+                
+    .card{         
+
+        border: 2px  solid black;
+        width: 20%;
+        box-shadow: 3px 3px 5px 2px  #00000080; 
+        border-radius: 10px;
+        padding: 40px;
+        box-sizing: border-box;
+        background-color: rgba(233, 226, 204, 0.904);
+        height: 350px;
+        
+        }
+
+    body{
+        
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-size: cover;
+        background-image: url('data:image/jpeg;base64,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')
+    }
+
+
+        .form-title{ 
+
+
+        text-align: center;
+        font-family: Roboto;
+        font-size: 30px;
+       
+          
+    }
+
+          
+
+          .text-input{
+                   display: block;
+                   width: 100%;
+                   margin-bottom: 20px;
+                   padding: 5px 10px;
+                   box-sizing: border-box;
+                   border: none;
+                   /* border-radius: 100px; */
+                    border-bottom: 2px solid rgb(7,170,225);
+                    background-color: rgba(120, 71, 175, 0.747);
+                
+
+          }
+          .submit-bun{
+            background-color:red;
+            color: white;
+            padding: 5px;
+            border: none;
+            width: 100%;
+            margin-top: 20px;
+
+
+          }
+                
+
+
+           .link{
+                      text-decoration: none;
+                      color: crimson;
+                      font-weight: bold;
+         }
+                .link:hover{
+                    text-decoration: underline;
+                    color: blue;
+                    font-weight: bold;
+                }
+
+</style>
+<body>
+    <div class="card">
+
+        <h3 class="form-title"> Login Form</h3>
+        <form >
+
+            <label >Email Address</label>
+            <input type="text" class="text-input">
+
+            <label> Password</label>
+           <input type="password "class="text-input">
+
+
+           <a href="#"class="link">Forgot password?</a>
+    
+           <button class="submit-bun"> Submit</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
