@@ -2,6 +2,7 @@ console.log('Hello JavaScript!');
     
 a=343;
 
+
 console.log(a);
 console.log(typeof a );
 

@@ -8,11 +8,13 @@ if(n%2 ===0){
     let message3 ='cool'
 
 
+    
 
     console.log('even');
 }else{
     console.log('odd');
 }
+
 
 console.log(message);
 console.log(message2);
