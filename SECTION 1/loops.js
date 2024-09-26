@@ -65,4 +65,6 @@ let prime = true;
     
 
     }
-    console.log();
+    console.log(n1,reverse);
+
+    
