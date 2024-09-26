@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plan</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f9fafb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            background-image: url('https://img.freepik.com/free-photo/gradient-blue-abstract-background-smooth-dark-blue-with-black-vignette-studio_1258-53594.jpg');
+            background-size: cover;
+        }
+
+        .pricing {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .bill {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .rupees {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .rupee {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .money {
+            background-color: #fff;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .dollar {
+            background-color: #fff;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        }
+
+        .kyc {
+            font-size: 0cm;
+            color: #3498db;
+            font-weight: bold;
+
+        }
+
+        .rupee button {
+            background-color: whitesmoke;
+            color: black;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.2;
+            margin-top: 20px;
+        }
+
+        .rupee button:hover {
+            background-color: #2980b9;
+        }
+
+        .money button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.2;
+            margin-top: 20px;
+        }
+
+        .money button:hover {
+            background-color: #2980b9;
+        }
+
+        .dollar button {
+            background-color: whitesmoke;
+            color: black;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.2;
+            margin-top: 20px;
+        }
+
+        .dollar button:hover {
+            background-color: #2980b9;
+        }
+
+        .link {
+            text-decoration: none;
+            font-size: 10px;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .pricing p {
+            font-weight: bolder;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="pricing">
+        <h1>Choose Your Plan</h1>
+        <p>
+            Be the first to know when boardme launches. Early access users will receive an extended free trial and early
+            bird pricing options
+        </p>
+        <div class="bill">
+            <label for="billing">Billed Monthly</label>
+            <input type="checkbox" id="billing" name="billing">
+            <label for="billing">Billed annually</label>
+        </div>
+        <div class="rupees">
+            <div class="rupee">
+                <h2>Free</h2>
+                <h3>$0</h3>
+                <p class="bb">500 request</p>
+                <p class="bb">Unlimited projects</p>
+                <p class="bb">extended free trial <span class="kyc">for early user</span></p>
+                <button>Create Account</button>
+            </div>
+            <div class="money">
+                <h2>Standard</h2>
+                <h3>$99/ month</h3>
+                <select>
+                    <option>2500 request</option>
+                </select><br>
+                <a href="#" class="link">Monthly active user</a>
+                <P class="bb">
+                    Unlimited projects
+                </P>
+                <p class="bb">extended free trial <span class="kyc">for early user</span></p>
+                <button>Create Account</button>
+            </div>
+            <div class="dollar">
+                <h2>Enterprises</h2>
+                <h3>Let's Talk!</h3>
+                <p class="bb">500 request</p>
+                <p class="bb">Ulimited projects</p>
+                <p class="bb">extended free trial <span class="2kyc">for early user</span></p>
+                <button>Create Account</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
