@@ -22,7 +22,7 @@ let sqrt = n**0.5;
 if(Number.isInteger(sqrt)){
      console.log("perfect square");
 
-     
+
 }
 
 //WAP
@@ -30,7 +30,6 @@ for(let i=50; i<=1000;i++){
     let sqrt = i ** 0.5;
     if(Number.isInteger(sqrt)){
         console.log("i");
-   
 
 }
 }
@@ -54,7 +53,6 @@ for(let i=50; i<=1000;i++){
 }
 
 
-        
 
 
 

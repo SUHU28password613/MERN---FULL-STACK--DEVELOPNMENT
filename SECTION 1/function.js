@@ -42,6 +42,8 @@ const getAvg = function(m1,m2,m3){
  const f1 = factorial(5);
  console.log(f1);
 
+ 
+
 
  
  

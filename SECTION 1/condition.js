@@ -27,9 +27,9 @@ const m =344;
 
 if(m % 7 === 0 && m % 11 === 0){
 console.log('Divisible by both 7 and 11');
+}
 
-
-}else{
+else{
     console.log(' Not Divisible by both 7 and 11');
     
     
