@@ -46,12 +46,6 @@ console.log(movies);
 
 
 
-//movies.splice(2,2); //removes 2 elements from starting index 2
-//movies.splice(2,2,'Flash','Arrow');//replaces 2 elements starting from index 2
-movies.splice(2,0,'Flash','Arrow');//inserts 2 elements starting from index 2
-
-console.log(movies);
-
 
 
 
